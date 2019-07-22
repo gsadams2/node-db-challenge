@@ -46,5 +46,5 @@ function addProject(project) {
 }
 
 function addAction(action, project_id) {
-  return db("projects").insert({ ...action, project_id });
+  return db("actions").insert({ ...action, project_id });
 }
